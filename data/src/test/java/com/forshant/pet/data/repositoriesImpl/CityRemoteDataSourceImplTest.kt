@@ -20,7 +20,6 @@ import retrofit2.Response
 class CityRemoteDataSourceImplTest {
 
     val cityApi = mockk<CityApi>()
-    val service = CityRemoteDataSourceImpl(cityApi)
 
     @Before
     fun setUp(){
